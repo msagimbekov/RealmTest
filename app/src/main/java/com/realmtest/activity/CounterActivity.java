@@ -81,7 +81,7 @@ public class CounterActivity extends Activity {
 
     }
 
-    private synchronized void showCounterValue() {
+    private void showCounterValue() {
         counterValueTextView.setText(String.valueOf(counter.getValue()));
     }
 
