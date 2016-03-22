@@ -21,14 +21,14 @@
             android:layout_width="0dp"
             android:layout_weight=".5"
             android:layout_height="wrap_content"
-            android:text="Button1"
+            android:text="@string/button1"
             android:onClick="tryIncrementing"/>
 
-        <Button
+        <Buttond
             android:layout_width="0dp"
             android:layout_weight=".5"
             android:layout_height="wrap_content"
-            android:text="Button2"
+            android:text="@string/button2"
             android:onClick="autoIncrement"/>
 
     </LinearLayout>
